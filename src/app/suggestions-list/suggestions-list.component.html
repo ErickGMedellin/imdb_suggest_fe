@@ -1,0 +1,7 @@
+<div class="movie-list-container">
+    <h2 class="title">IMDB Movie Ratings</h2>
+    <button class="random-list-button" (click)="getRandomMovies()">Random<br>Movies</button>
+    <div class="movie-list">
+        <app-movie *ngFor="let movie of movies" [movie]="movie"></app-movie>
+    </div>
+</div>

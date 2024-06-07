@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #1E3A8A; /* Azul Marino */
+    --secondary-color: #38B2AC; /* Turquesa */
+    --accent-color: #FB7185; /* Coral */
+    --background-color: #F7FAFC; /* Gris Claro */
+    --text-color: #2D3748; /* Gris Oscuro */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  }
+  
+  button.primary {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  }
+  
+  button.secondary {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+  }
+  
+  button.cta {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+  }
+  
+  .card {
+    background-color: var(--background-color);
+    border: 1px solid var(--secondary-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+  }
+  
