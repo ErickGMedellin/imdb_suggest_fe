@@ -3,13 +3,15 @@ import { Movie } from '../Movie';
 import { MovieService } from '../movie.service';
 import { NgFor } from '@angular/common';
 import { MovieComponent } from '../movie/movie.component';
+import { MainLogoComponent } from '../main-logo/main-logo.component';
 
 @Component({
   selector: 'app-suggestions-list',
   standalone: true,
   imports: [
     NgFor,
-    MovieComponent
+    MovieComponent,
+    MainLogoComponent
   ],
   templateUrl: './suggestions-list.component.html',
   styleUrl: './suggestions-list.component.css'

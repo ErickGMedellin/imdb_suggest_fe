@@ -36,3 +36,8 @@
     text-align: center;
     justify-content: center;
   }
+
+  .main-logo {
+    size: auto;
+    margin-bottom: 20px;
+  }
